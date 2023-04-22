@@ -1,0 +1,370 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__left {
+    margin-top: 10px;
+}
+
+.header__right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__right-content {
+    list-style: none;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.first {
+    position: relative;
+    height: 700px;
+}
+
+.first__img {
+    position: absolute;
+    left: 500px;
+    width: 200px;
+    height: auto;
+}
+
+.first__content {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    font-size: 60px;
+    color:rgb(143, 27, 110);
+    font-family: 'Architects Daughter', cursive;;
+}
+
+.first__content-growth {
+    color: rgb(2, 144, 238);
+}
+
+.first__content-sub {
+    position: absolute;
+    top: 350px;
+    left: 200px;
+}
+
+.first__content-sub--title {
+    color: rgb(143, 27, 110);
+}
+
+.first__content-sub--title--growth {
+    color:rgb(2, 144, 238);
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.news__title-sub {
+    color: rgb(143, 27, 110);
+    font-family: 'Architects Daughter', cursive;
+}
+
+.news__table {
+    padding: 10px 0px 30px;
+    border-top: solid 3px rgb(179, 171, 171);
+    border-bottom: solid 3px rgb(179, 171, 171);
+}
+
+
+.news__table-content {
+    display: flex;
+    width: 700px;
+    border-bottom:solid 2px rgb(179, 171, 171);
+}
+
+.news__table-date {
+    margin: 10px 10px;
+}
+
+.news__table-news {
+    background-color: rgb(143, 27, 110);
+    color: white;
+    border-radius: 20px;
+    padding: 0px 10px;
+    margin: 10px 10px;
+}
+
+.news__table-text {
+    margin: 10px 10px;
+}
+
+.about {
+    padding: 70px 0px;
+    background-color: rgb(249, 247, 245);
+}
+
+.about__title {
+    text-align: center;
+    
+}
+
+.about__title-sub {
+    color: rgb(143, 27, 110);
+    font-family: 'Architects Daughter', cursive;
+}
+
+.about__main {
+    display: flex;
+
+}
+
+.about__text {
+    width: 350px;
+    font-size: 15px;
+    text-align: left;
+    margin:0px 200px 0px 300px;
+    
+
+}
+
+.about__img {
+    width:100px;
+    height: auto;
+}
+
+.service {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+.service__title-sub {
+    color: rgb(143, 27, 110);
+    font-family: 'Architects Daughter', cursive;
+}
+
+.service__content {
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 400px 400px;
+
+}    
+
+.service__content-sub1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color:rgb(201, 10, 112);
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.service__content-sub2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: rgb(228, 89, 191);
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.service__content-sub3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: rgb(156, 133, 150);
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.service__content-sub--text {
+    text-align: left;
+}
+
+
+.blog {
+    padding: 50px;
+    background-color: rgb(249, 247, 245);
+}
+
+.blog__title-sub {
+    color: rgb(143, 27, 110);
+    font-family: 'Architects Daughter', cursive;
+}
+
+.blog__content {
+    display: flex;
+    justify-content: center;
+}
+
+.flex__item {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card {
+    background-color: white;
+    width: 280px;
+    border-radius: 30px;
+    margin: 0 10px;
+}
+
+.img__content {
+    position: relative;
+    
+}
+
+.card__img {
+    border-radius: 30px 30px 0 0;
+}
+
+.card__title {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+    font-size: 15px;
+    width:50px;
+    height: 30px;
+    background-color: rgb(143, 27, 110);
+    padding: 7px 5px 5px 20px;
+    border-top-left-radius: 30px;
+}
+
+
+.card__content_sub {
+    font-size: 15px;
+    text-align: left;
+    padding: 0 30px 0 20px;
+}
+
+.date-tag {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin:0 30px 0 15px;
+}
+
+.blog__btn {
+    width: 200px;
+    height: auto;
+    padding: 20px 0;
+    color: rgb(143, 27, 110);
+    border-radius: 50px;
+    margin: 30px auto 0;
+    display: block;
+    text-align: center;
+    border: solid 3px rgb(143, 27, 110);
+}
+
+.company {
+    display:flex;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+.company__title-sub {
+    color: rgb(143, 27, 110);
+    font-family: 'Architects Daughter', cursive;
+}
+
+.company__table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.company__table-content--title {
+    border:1px solid rgb(188, 186, 184);
+    background-color: rgb(234, 232, 229);
+    padding: 15px 150px 15px 10px;
+}
+
+.company__table-content--sub {
+    border: 1px solid rgb(188, 186, 184);
+    padding: 15px 300px 15px 10px;
+}
+
+.recruit {
+    display:flex;
+    justify-content: center;
+}
+
+.recruit__img {
+    position: relative;
+}
+
+.recruit__content {
+    position:absolute;
+    top: 130px;
+    left: 300px;
+    color:white;
+    font-size: 30px;
+}
+
+.interview__img {
+    position: relative;
+}
+
+.interview__content {
+    position: absolute;
+    top: 130px;
+    left: 250px;
+    color: white;
+    font-size: 30px;
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+.contact__text {
+    text-align: center;
+    font-size: 20px;
+}
+
+.border {
+    border-left: 2px solid rgb(143, 27, 110);
+        width: 10px;
+        height: 3px;
+        padding: 20px 0;
+        margin: 30px auto 0;
+        display: block;
+        text-align: center;
+}
+
+.contact__btn {
+      width: 250px;
+        height: 30px;
+        padding: 20px 0;
+        color: white;
+        border-radius: 50px;
+        margin: 30px auto 0;
+        display: block;
+        text-align: center;
+        background: linear-gradient(90deg,#fd54bf,#af0443);
+        box-shadow: 0px 7px 0px #af0443;
+        position: relative;
+    }
+
+.contact__btn-icon {
+    font-size: 25px;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+.contact__btn-text {
+    font-size: 17px;
+    position: absolute;
+    top: 5px;
+    left: 100px;
+}
+
+.copy-right {
+    text-align: center;
+    margin-top: 50px;
+}
+
