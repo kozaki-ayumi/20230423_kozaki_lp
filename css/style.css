@@ -12,12 +12,13 @@
 .header__right {
     display: flex;
     justify-content: flex-end;
+    margin-top: 17px;
 }
 
 .header__right-content {
     list-style: none;
-    margin-right: 40px;
-    font-size: 15px;
+    margin-right: 7%;
+    font-size: 1.5vw;
 }
 
 .first {
@@ -36,21 +37,19 @@
     font-size: 5vw;
     color:rgb(143, 27, 110);
     font-family: 'Architects Daughter', cursive;;
-    top: 0%;
-    left: 13%;
+    line-height: 1.5;
+    top: 10%;
+    left: 14%;
 }
 
 .first__content-growth {
     color: rgb(2, 144, 238);
 }
 
-.first__content-sub {
-    position:absolute;
-    top: 53%;
-    left: 14%;
-}
-
 .first__content-sub--title {
+    position: absolute;
+    top: 55%;
+    left: 14%;
     color: rgb(143, 27, 110);
     font-size: 2vw;
 }
@@ -60,34 +59,48 @@
 }
 
 .first__content-sub--item {
-    font-size: 1.5vw;
+    position:absolute;
+    top: 63%;
+    left: 14%;
+    font-size: 1.6vw;
+    line-height: 1.5;
 }
+
 
 .news {
     width: 100%;
     margin: 70px 0;
-    display: flex;
-    justify-content: center;
 }
 
+.news__title {
+    margin: 0 0 30px 15%;
+    
+}
 
 .news__title-sub {
     color: rgb(143, 27, 110);
     font-family: 'Architects Daughter', cursive;
+    margin: 10px 0;
+    font-size: 1.7vw;
+}
+
+.news__title-main {
+    font-size: 2vw;
 }
 
 .news__table {
-    padding: 10px 0px 30px;
     border-top: solid 3px rgb(179, 171, 171);
     border-bottom: solid 3px rgb(179, 171, 171);
-    font-size: 13px;
+    font-size: 1.5vw;
+    width: 70%;
+   margin-left: 15%;
 }
 
 
 .news__table-content {
     display: flex;
-    width: 550px;
     border-bottom:solid 2px rgb(179, 171, 171);
+    padding: 8px 10% 8px 0;
 }
 
 .news__table-date {
@@ -107,52 +120,80 @@
 }
 
 .about {
-    padding: 60px 0px 60px 0;
+    padding: 50px 0px;
     background-color: rgb(249, 247, 245);
     width: 100%;
 }
 
 .about__title {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .about__title-sub {
     color: rgb(143, 27, 110);
     font-family: 'Architects Daughter', cursive;
+    font-size: 1.7vw;
+    margin-bottom: 10px;
+}
+
+.about__title-main {
+    font-size: 2.3vw;
 }
 
 .about__main {
-    display: flex;
-    justify-content:center;
+   display: flex;
 }
 
 .about__text {
-    width: 310px;
-    font-size: 13px;
-    padding: 0 80px;
+    width: 41%;
+    font-size: 1.5vw;
+    line-height: 1.5;
+    margin: 0 10%;
+}
+
+.about__text-1 {
+    margin-bottom: 20px;
 }
 
 .about__img {
-    width: 350px;
+    margin-right: 10%;
+    width: 40%;
+}
+
+.about__img-content {
+    width: 100%;
     height: auto;
 }
 
 .service {
-    display: flex;
-    justify-content: center;
     margin: 60px 0px;
     width: 100%;
+}
+
+.service__title {
+    margin-left: 15%;
+    margin-bottom: 30px;
 }
 
 .service__title-sub {
     color: rgb(143, 27, 110);
     font-family: 'Architects Daughter', cursive;
+    font-size: 1.7vw;
+    margin-bottom: 10px;
+}
+
+.service__title-main {
+    font-size: 2.3vw;
+    margin-bottom: 20px;
 }
 
 .service__content {
     display: grid;
-    grid-template-rows: 150px 150px;
-    grid-template-columns: 350px 350px;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin-left: 15%;
 }    
 
 .service__content-sub1 {
@@ -162,49 +203,75 @@
     color: white;
     text-align: center;
     padding: 20px;
-    font-size: 13px;
+}
+ 
+.service__content-sub--picture {
+    width: 30%;
+}
+
+.service__content-sub--content-1 {
+    margin-top: 20px;
+    font-size: 1.3vw;
+    
+}
+
+.service__content-sub--title {
+    font-size: 1.5vw;
+}
+
+.service__content-sub--title {
+    margin-bottom: 10px;
+}
+
+.service__content-sub--text {
+    line-height: 1.5;
+    text-align: left;
 }
 
 .service__content-sub2 {
     grid-column: 2/3;
     grid-row: 1/2;
     background-color: rgb(228, 89, 191);
-    font-size: 15px;
     display: flex;
     flex-direction: row;
     color: white;
-    font-size: 13px;
+}
+
+.service__content-sub--content-2 {
+    font-size: 1.3vw;
+    padding: 10% 0;
 }
 
 .service__content-sub3 {
     grid-column: 2/3;
     grid-row: 2/3;
     background-color: rgb(156, 133, 150);
-    font-size: 15px;
     display: flex;
     flex-direction: row;
     color: white;
-    font-size: 13px;
 }
 
-.service__content-sub--text {
-    text-align: left;
-}
 
 .blog {
-    padding: 30px 0 30px 0;
+    padding: 50px 0 30px 0;
     background-color: rgb(249, 247, 245);
     width: 100%;
 }
 
-.blog__content {
-    display: flex;
-    justify-content: center;
+.blog__title {
+    margin-left: 15%;
+    margin-bottom: 30px;
 }
 
 .blog__title-sub {
     color: rgb(143, 27, 110);
     font-family: 'Architects Daughter', cursive;
+    font-size: 1.5vw;
+    margin-bottom: 10px;
+}
+
+.blog__title-main {
+    font-size: 2vw;
 }
 
 .flex__item {
@@ -214,8 +281,8 @@
 
 .card {
     background-color: white;
-    width: 230px;
-    border-radius: 30px;
+    width: 22%;
+    border-radius: 20px;
     margin: 0 10px;
 }
 
@@ -224,7 +291,8 @@
 }
 
 .card__img {
-    border-radius: 30px 30px 0 0;
+    border-radius: 20px 20px 0 0;
+    width:100%;
 }
 
 .card__title {
@@ -232,105 +300,109 @@
     top: 0px;
     left: 0px;
     color: white;
-    font-size: 17px;
-    width:50px;
-    height: 30px;
+    font-size: 1.4vw;
+    width:20%;
+    height: 20%;
     background-color: rgb(143, 27, 110);
-    padding: 7px 5px 5px 20px;
-    border-top-left-radius: 30px;
+    padding: 10px 5px 0px 15px;
+    border-top-left-radius: 20px;
 }
 
 .card__content_sub {
-    font-size: 13px;
+    font-size: 1.2vw;
+    line-height: 1.5;
     text-align: left;
-    padding: 0 15px 0 15px;
+    padding: 10px 15px;
 }
 
 .date-tag {
     display: flex;
     justify-content: space-between;
-    font-size: 11px;
-    margin:0 30px 0 15px;
+    font-size: 1.2vw;
+    margin:10px 12px 20px 10px;
 }
 
 .blog__btn {
-    width: 200px;
+    width: 20%;
     height: auto;
-    padding: 20px 0;
+    padding: 20px 10px;
+    background-color: white;
     color: rgb(143, 27, 110);
     border-radius: 50px;
-    margin: 30px auto 0;
+    margin: 30px auto;
     display: block;
     text-align: center;
     border: solid 3px rgb(143, 27, 110);
+    font-size: 1.7vw;
 }
 
 .company {
-    display:flex;
-    justify-content: center;
-    margin: 60px 0px;
+    margin: 50px 0px 60px;
     width: 100%;
 }
 
 .company__title-sub {
     color: rgb(143, 27, 110);
     font-family: 'Architects Daughter', cursive;
+    font-size: 1.5vw;
+    margin-bottom: 10px;
+}
+
+.company__title {
+    font-size: 2vw;
+    margin-bottom: 30px;
+    margin-left: 20%;
 }
 
 .company__table {
     border-collapse: collapse;
-    margin-top: 10px;
+    width: 60%;
+    margin-left:20%;
 }
 
 .company__table-content--title {
     border:1px solid rgb(188, 186, 184);
     background-color: rgb(234, 232, 229);
-    padding: 10px 100px 10px 10px;
-    font-size: 15px;
+    padding: 2%;
+    font-size: 1.5vw;
 }
 
 .company__table-content--sub {
     border: 1px solid rgb(188, 186, 184);
-    padding: 15px 200px 15px 10px;
-    font-size: 15px;
+    padding: 2%;
+    font-size: 1.5vw;
 }
 
 .recruit {
+    position: relative;
     width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.information__box {
-    position:relative;
 }
 
 .information__img {
-    width: 100%;
+    width: 50%;
     height: auto;
 }    
 
 .information__content {
     position: absolute;
-    top: 40%;
-    left:40%;
+    top: 45%;
+    left:20%;
     color: white;
     font-size: 2vw;
 }
 
-.interview__box{
-    position: relative;
-}
-
 .interview__img {
-    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
     height: auto;
 }
 
 .interview__content {
     position:absolute;
-    top: 40%;
-    left: 30%;
+    top: 45%;
+    left: 68%;
     color:white;
     font-size: 2vw;
 }
@@ -348,7 +420,6 @@
 .border {
     border-left: 2px solid rgb(143, 27, 110);
     width: 5px;
-    height: 1px;
     padding: 15px 0;
     margin: 20px auto 0;
     display: block;
@@ -357,10 +428,10 @@
 
 .contact__btn {
     width: 250px;
-    height: 25px;
-    padding: 20px 0;
+    height: auto;
+    padding: 30px 0;
     color: white;
-    border-radius: 50px;
+    border-radius: 60px;
     margin: 30px auto 0;
     display: block;
     text-align: center;
@@ -372,14 +443,14 @@
 .contact__btn-icon {
     font-size: 25px;
     position: absolute;
-    top: 20px;
+    top: 15px;
     left: 30px;
 }
 
 .contact__btn-text {
-    font-size: 17px;
+    font-size: 18px;
     position: absolute;
-    top: 5px;
+    top: 20px;
     left: 100px;
 }
 
@@ -387,4 +458,3 @@
     text-align: center;
     margin-top: 70px;
 }
-
